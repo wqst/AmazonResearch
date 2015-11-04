@@ -10,8 +10,3 @@ This code takes a website and json object array as input and tries to use the at
 ## Instructions ##
 Run with the command `casperjs Nov3research.js`. Then output.txt will have the elements related to each json object in the json array.
 
-### QuickStart ###
-
-Amazon Example: `casperjs encode.js ./amazon-watches.js`
-
-Personal Site Example: `casperjs encode.js ./jasonlin.js`
