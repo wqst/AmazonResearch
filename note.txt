@@ -1,0 +1,37 @@
+1. 成功用evaluate判断
+2. 输入 输出文件
+3. absolute relative 转换 并定位
+4. screenshot
+
+
+navbar and footer using their locations
+
+casperjs.cli.has?
+new JSON format
+scrollcheck
+relative? percentage or relative to a position?
+pixel location
+box model
+
+how to use source code in chrome browser
+
+Done 1. get the json object from output 
+2. based on parsing json object, differentiate the kind of element(s) I need to get
+3. using css selector to traverse the page with certain name patterns, and find the elements who have the attribute similar to json object (easy way to traverse?). take them into array and compare to the json object's attribute
+4. use css selector/screeshot to output them
+
+next step:
+select* or select certain pattern?
+directly tell me what is the name for each json object?
+recursively select elements?
+how to print out in location-encoder.js?
+do I differentiate by name or other attributes?
+
+The things doesn't work querySelectAll:
+"div, span, td"
+"div[id*='nav']"
+"*"
+"div[id*='F']"
+"div[id*='n']"
+"div[id*=' ']"
+"div[id*='Footer'], div[id*='footer']"
